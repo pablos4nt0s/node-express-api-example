@@ -28,6 +28,11 @@
     "url": "git+https://github.com/rectius/node-express-api-example.git"
   },
   "license": "ISC",
+  "config": {
+    "ghooks": {
+      "pre-commit": "yarn test"
+    }
+  },
   "bugs": {
     "url": "https://github.com/rectius/node-express-api-example/issues"
   },

@@ -43,6 +43,12 @@ Install dependencies:
 yarn
 ```
 
+## create environment variables file
+```sh
+# rename
+cp .env.example .env
+```
+
 ## start server
 
 Run server:
