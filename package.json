@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "nodemon --exec node-env-run index.js",
-    "test": "nyc mocha ./server/**/*.js --timeout 10000 && nyc report --reporter=lcov"
+    "test": "nyc mocha ./server/test/**/*.js --timeout 10000 && nyc report --reporter=lcov"
   },
   "keywords": [
     "express",
