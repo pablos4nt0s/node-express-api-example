@@ -10,7 +10,32 @@
   },
   "scripts": {
     "start": "nodemon --exec node-env-run index.js",
-    "test": "nyc mocha ./server/test/**/*.js --timeout 10000 && nyc report --reporter=lcov"
+    "test": "nyc mocha",
+    "coverage": "nyc report"
+  },
+  "nyc": {
+    "check-coverage": true,
+    "per-file": true,
+    "lines": 99,
+    "statements": 99,
+    "functions": 99,
+    "branches": 99,
+    "include": [
+      "*.js",
+      "server/**/*"
+    ],
+    "exclude": [
+      "**/*.test.js"
+    ],
+    "reporter": [
+      "lcov",
+      "text-summary"
+    ],
+    "extension": [
+      ".js"
+    ],
+    "cache": true,
+    "all": true
   },
   "keywords": [
     "express",

@@ -5,10 +5,11 @@ node_js:
 services:
   - mongodb
 script:
-  - yarn test
+  - nyc yarn test
 cache:
   yarn: true
   directories:
   - node_modules
 git:
-  depth: 3
+  depth: 3,
+after_success: yarn coverage  
