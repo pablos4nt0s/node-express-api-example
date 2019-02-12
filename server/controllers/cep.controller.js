@@ -4,6 +4,7 @@ const PostalCode = require('../models/postalcode.model');
 
 const router = express.Router();
 
+
 router.get('/:cep', async (req, res, next) => {
   try {
     console.log(req.params.cep)
@@ -13,5 +14,7 @@ router.get('/:cep', async (req, res, next) => {
     return next(e);
   }
 });
+
+
 
 module.exports = router;
