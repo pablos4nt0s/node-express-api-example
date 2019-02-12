@@ -69,7 +69,7 @@ yarn test
 
 ## Maintainers
 
-Adriano Bastos (Github: <a href="https://github.com/adrianobastos">@adrianobastos</a>)
-Julio Sandroni (Github: <a href="https://github.com/sandronister">@sandronister</a>)
-Luiz Henrique Vidal (Github: <a href="https://github.com/luizfef06">@luizfef06</a>)
-Pablo Souza (Github: <a href="https://github.com/rectius">@rectius</a>)
+- Adriano Bastos (Github: <a href="https://github.com/adrianobastos">@adrianobastos</a>)
+- Julio Sandroni (Github: <a href="https://github.com/sandronister">@sandronister</a>)
+- Luiz Henrique Vidal (Github: <a href="https://github.com/luizfef06">@luizfef06</a>)
+- Pablo Souza (Github: <a href="https://github.com/rectius">@rectius</a>)
