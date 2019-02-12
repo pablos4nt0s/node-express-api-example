@@ -1,11 +1,9 @@
 const express = require('express');
 
-const cepController = require('./cep.controller');
-const enderController = require('./ender.controller');
+const addressController = require('./address.controller');
 
 const router = express.Router();
 
-router.use('/cep', cepController);
-router.use('/endereco', enderController);
+router.use('/address', addressController);
 
 module.exports = router;

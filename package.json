@@ -10,8 +10,31 @@
   },
   "scripts": {
     "start": "nodemon --exec node-env-run index.js",
-    "test": "nyc mocha",
-    "coverage": "nyc report"
+    "test": "nyc mocha"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "helmet": "^3.15.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.4.11",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "dotenv": "^6.2.0",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "mocha": "^5.2.0",
+    "node-env-run": "^3.0.2",
+    "nodemon": "^1.18.10",
+    "nyc": "^13.2.0",
+    "supertest": "^3.4.2"
   },
   "nyc": {
     "check-coverage": true,
@@ -61,25 +84,5 @@
   "bugs": {
     "url": "https://github.com/rectius/node-express-api-example/issues"
   },
-  "homepage": "https://github.com/rectius/node-express-api-example#readme",
-  "dependencies": {
-    "body-parser": "^1.18.3",
-    "compression": "^1.7.3",
-    "cookie-parser": "^1.4.3",
-    "cors": "^2.8.5",
-    "express": "^4.16.4",
-    "helmet": "^3.15.0",
-    "method-override": "^3.0.0",
-    "mongoose": "^5.4.11",
-    "morgan": "^1.9.1"
-  },
-  "devDependencies": {
-    "eslint": "^5.3.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "mocha": "^5.2.0",
-    "node-env-run": "^3.0.2",
-    "nodemon": "^1.18.10",
-    "nyc": "^13.2.0"
-  }
+  "homepage": "https://github.com/rectius/node-express-api-example#readme"
 }

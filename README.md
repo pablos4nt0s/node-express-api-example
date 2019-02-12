@@ -11,7 +11,7 @@
 
 Node.js implementation of a REST API using express and MongoDB. It uses JWT authentication for authentication. Also helps your team to promote best practices by following simple conventions.
 
-## features
+## Features
 
 - Authentication via JsonWebToken [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken).
 - Code Linting [ESLint](http://eslint.org). [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb).
@@ -23,7 +23,7 @@ Node.js implementation of a REST API using express and MongoDB. It uses JWT auth
 - CORS support via [cors](https://github.com/expressjs/cors).
 - Has `.editorconfig` which helps developers define and maintain consistent coding styles between different editors and IDEs.
 
-## install
+## Install dependencies
 
 Clone the repo:
 ```sh
@@ -41,13 +41,15 @@ Install dependencies:
 yarn
 ```
 
-## create environment variables file
+## Configure 
+
+Environment variables:
 ```sh
 # rename
 cp .env.example .env
 ```
 
-## start server
+## Running the example
 
 Run server:
 ```sh
@@ -55,7 +57,9 @@ Run server:
 yarn start
 ```
 
-## tests
+Then access the example in the browser in http://localhost:3000
+
+## Tests
 
 Tests:
 ```sh
@@ -63,15 +67,9 @@ Tests:
 yarn test
 ```
 
-## maintainers
-
-
+## Maintainers
 
 Adriano Bastos (Github: <a href="https://github.com/adrianobastos">@adrianobastos</a>)
 Julio Sandroni (Github: <a href="https://github.com/sandronister">@sandronister</a>)
 Luiz Henrique Vidal (Github: <a href="https://github.com/luizfef06">@luizfef06</a>)
 Pablo Souza (Github: <a href="https://github.com/rectius">@rectius</a>)
-
-## license
-
-MIT. Copyright (c) [Pablo Souza](http://about.me/pablosouza/).
