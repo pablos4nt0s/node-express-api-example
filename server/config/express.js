@@ -45,9 +45,7 @@ app.set('etag', false);
 app.set('x-powered-by', false);
 
 // log
-if (process.env.NODE_ENV === 'development') {
-  app.use(morgan('dev'));
-}
+app.use(morgan('dev'));
 
 // routes
 app.use('/healthcheck', healthCheckController);

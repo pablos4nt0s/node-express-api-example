@@ -10,9 +10,8 @@
   },
   "scripts": {
     "start": "nodemon --exec node-env-run index.js",
-    "test": "cross-env NODE_PATH=. NODE_ENV=test mocha",
-    "test:cov": "cross-env NODE_PATH=. NODE_ENV=test istanbul cover node_modules/mocha/bin/_mocha -- --exit",
-    "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+    "test": "cross-env NODE_PATH=. NODE_ENV=test nyc mocha",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
@@ -38,8 +37,7 @@
     "mocha": "^5.2.0",
     "node-env-run": "^3.0.2",
     "nodemon": "^1.18.10",
-    "nyc": "^13.2.0",
-    "supertest": "^3.4.2"
+    "nyc": "^13.2.0"
   },
   "keywords": [
     "express",
