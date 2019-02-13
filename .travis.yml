@@ -2,13 +2,13 @@ language: node_js
 node_js:
   - "node"
   - "lts/*"
-services:
-  - mongodb
 script:
   - yarn test
+after_script:
+ - npm run coveralls
 cache:
   yarn: true
   directories:
-  - node_modules
+    - node_modules
 git:
   depth: 3

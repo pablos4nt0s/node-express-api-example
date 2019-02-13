@@ -10,7 +10,8 @@
   },
   "scripts": {
     "start": "nodemon --exec node-env-run index.js",
-    "test": "nyc mocha"
+    "test": "nyc mocha",
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
@@ -26,6 +27,7 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "chai-http": "^4.2.1",
+    "coveralls": "^3.0.2",
     "dotenv": "^6.2.0",
     "eslint": "^5.3.0",
     "eslint-config-airbnb-base": "^13.1.0",
