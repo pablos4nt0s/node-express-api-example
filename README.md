@@ -9,7 +9,7 @@
 
 ### simple, robust, REST API implementation
 
-Node.js implementation of a REST API using express and MongoDB. It uses JWT authentication for authentication. Also helps your team to promote best practices by following simple conventions.
+Node.js implementation of a REST API using express and MongoDB. Also helps your team to promote best practices by following simple conventions.
 
 ## Features
 
