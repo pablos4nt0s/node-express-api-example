@@ -10,7 +10,8 @@
   },
   "scripts": {
     "start": "nodemon --exec node-env-run index.js",
-    "test": "nyc mocha",
+    "test": "cross-env NODE_PATH=. NODE_ENV=test mocha",
+    "test:cov": "cross-env NODE_PATH=. NODE_ENV=test istanbul cover node_modules/mocha/bin/_mocha -- --exit",
     "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
   },
   "dependencies": {
@@ -28,39 +29,17 @@
     "chai": "^4.2.0",
     "chai-http": "^4.2.1",
     "coveralls": "^3.0.2",
+    "cross-env": "^5.2.0",
     "dotenv": "^6.2.0",
     "eslint": "^5.3.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0",
+    "istanbul": "^0.4.5",
     "mocha": "^5.2.0",
     "node-env-run": "^3.0.2",
     "nodemon": "^1.18.10",
     "nyc": "^13.2.0",
     "supertest": "^3.4.2"
-  },
-  "nyc": {
-    "check-coverage": true,
-    "per-file": true,
-    "lines": 0,
-    "statements": 0,
-    "functions": 0,
-    "branches": 0,
-    "include": [
-      "*.js",
-      "server/**/*"
-    ],
-    "exclude": [
-      "**/*.test.js"
-    ],
-    "reporter": [
-      "lcov",
-      "text-summary"
-    ],
-    "extension": [
-      ".js"
-    ],
-    "cache": true,
-    "all": true
   },
   "keywords": [
     "express",

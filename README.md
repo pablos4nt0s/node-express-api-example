@@ -1,7 +1,9 @@
-# node-express-api-example [![travis][travis-image]][travis-url] [![Issue Count][codeclimate-image]][codeclimate-url] [![Commitizen friendly][commitizen-image]][commitizen-url]
+# node-express-api-example [![travis][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] [![Issue Count][codeclimate-image]][codeclimate-url] [![Commitizen friendly][commitizen-image]][commitizen-url]
 
 [travis-image]: https://img.shields.io/travis/rectius/node-express-api-example/master.svg
 [travis-url]: https://travis-ci.org/rectius/node-express-api-example
+[coveralls-image]: https://coveralls.io/repos/github/rectius/node-express-api-example/badge.svg?branch=master
+[coveralls-url]: https://coveralls.io/github/rectius/node-express-api-example?branch=master
 [codeclimate-image]: https://codeclimate.com/github/rectius/node-express-api-example/badges/issue_count.svg
 [codeclimate-url]: https://codeclimate.com/github/rectius/node-express-api-example
 [commitizen-image]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg
