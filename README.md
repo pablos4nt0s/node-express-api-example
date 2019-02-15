@@ -15,7 +15,6 @@ Node.js implementation of a REST API using express and MongoDB. Also helps your 
 
 ## Features
 
-- Authentication via JsonWebToken [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken).
 - Code Linting [ESLint](http://eslint.org). [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb).
 - Auto server restart [nodemon](https://github.com/remy/nodemon).
 - Code Coverage via [nyc](https://www.npmjs.com/package/nyc).
