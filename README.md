@@ -18,10 +18,8 @@ Node.js implementation of a REST API using express and MongoDB. Also helps your 
 - Code Linting [ESLint](http://eslint.org). [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb).
 - Auto server restart [nodemon](https://github.com/remy/nodemon).
 - Code Coverage via [nyc](https://www.npmjs.com/package/nyc).
-- API parameter validation via [express-validation](https://www.npmjs.com/package/express-validation).
 - Secure app via [helmet](https://github.com/helmetjs/helmet).
 - Uses [yarn](https://yarnpkg.com) over npm.
-- CORS support via [cors](https://github.com/expressjs/cors).
 - Has `.editorconfig` which helps developers define and maintain consistent coding styles between different editors and IDEs.
 
 ## Install dependencies
