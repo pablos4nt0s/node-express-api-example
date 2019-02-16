@@ -58,6 +58,19 @@ yarn start
 
 Then access the example in the browser in http://localhost:3000
 
+## Examples
+
+```sh
+# Check healthcheck
+curl -i http://localhost:3000/healthcheck
+
+# Get an addresses by postal code
+curl -i http://localhost:3000/api/address/postalcode/18046390
+
+# Get addresses by city
+curl -i http://localhost:3000/api/address/city/Sorocaba
+```
+
 ## Tests
 
 Tests:
