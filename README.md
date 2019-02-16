@@ -32,7 +32,7 @@ cd node-express-api-example
 
 Install yarn:
 ```js
-npm install -g yarn
+npm install -g yarn node-env-run
 ```
 
 Install dependencies:
