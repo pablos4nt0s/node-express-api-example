@@ -48,7 +48,7 @@ Environment variables:
 cp .env.example .env
 ```
 
-## Running the example
+## Running
 
 Run server:
 ```sh
