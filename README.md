@@ -13,6 +13,8 @@
 
 Node.js implementation of a REST API using express and MongoDB. Also helps your team to promote best practices by following simple conventions.
 
+This example retrieves a list of addresses by a city or postal code.
+
 ## Features
 
 - Code Linting [ESLint](http://eslint.org). [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb).
@@ -64,7 +66,7 @@ Then access the example in the browser in http://localhost:3000
 # Check healthcheck
 curl -i http://localhost:3000/healthcheck
 
-# Get an addresses by postal code
+# Get addresses by postal code
 curl -i http://localhost:3000/api/address/postalcode/18046390
 
 # Get addresses by city
