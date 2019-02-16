@@ -50,6 +50,12 @@ Environment variables:
 cp .env.example .env
 ```
 
+Database:
+```sh
+# Import data to local mongodb using mongoimport
+mongoimport -h localhost -d aula-ufscar -c postalcode --drop  --file ./bd.json --jsonArray
+```
+
 ## Running
 
 Run server:
